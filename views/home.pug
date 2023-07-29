@@ -1,0 +1,30 @@
+extends base.pug 
+
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+      include ../static/style.css
+
+block content 
+  
+  section#introssection 
+    div   Welcome to Keshav's Dance Acedemy 
+    div.small   Eat Sleep Dance Repeat 
+
+    
+  section#missionsection 
+    h3   Our Mission
+    div.card 
+      h3 Dance Perfection
+    div.card 
+      h3 The way you want to dance
+    div.card 
+      h3 Expert Teaching
+
+
+  section#sponsorsection 
+    h3   Our sponsors  
+  
